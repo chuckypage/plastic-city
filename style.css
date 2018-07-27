@@ -1,0 +1,213 @@
+body {
+	margin: -1px;
+	margin-bottom: -1px;
+	margin-top: -1px;
+
+	/*overflow: visible;*/
+}
+
+/*html {*/
+
+/*    background-attachment: fixed;*/
+/*	background-image: url(waterfall5.gif);*/
+/*	background-repeat: no-repeat;*/
+/*	-webkit-background-size: cover;*/
+/*  	-moz-background-size: cover;*/
+/*  	-o-background-size: cover;*/
+/*  	background-size: 100% 100%;*/
+/*     position: fixed;*/
+     /*border: 19px dotted #c905c6;*/
+     /*border-image-source: url(gold.png);*/
+/*     border-image-slice: 50;*/
+/*     border-image-width: 40px;*/
+/*     width: 97.5vw;*/
+/*     height: 98vh;*/
+     
+  	
+/*}*/
+
+/*.slideshow {*/
+/*    z-index: -5;*/
+/*}*/
+
+.border {
+    z-index: 100;
+    position: absolute;
+	/*border: 3px hotpink solid;*/
+	width: 100vw;
+	height: 100vh;
+     /*background-attachment: fixed;*/
+	background-image: url(gold4.png);
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: 100% 100%;
+    
+}
+
+.slideshow {
+    position: fixed;
+     margin: auto;
+     top: 0;
+     right: 0;
+     bottom: 0;
+     left: 0;
+     width: 85%;
+     height: 85%;
+    -webkit-box-shadow:0  22px #ff00a5; 
+    -moz-box-shadow: 0 0 22px #ff00a5; 
+    box-shadow:0 0 22px #ff00a5;
+    /*border: 1px hotpink solid;*/
+   /*  -webkit-background-size: cover;*/
+  	/*-moz-background-size: cover;*/
+  	/*-o-background-size: cover;*/
+}
+
+.slideshow img {
+    width: 100%;
+     height: 100%;
+    position: absolute;
+    display: none;
+}
+
+.slideshow img:first-child {
+    display: block;
+    /* overrides the previous style */
+}
+
+/*.frametwo {*/
+/*    display: none;*/
+/*      z-index: 200;*/
+/*     border-image-source: url(greenfr.png);*/
+/*     border-image-slice: 50;*/
+/*     border-image-width: 40px;*/
+/*    position: fixed;*/
+	/*border: 3px green solid;*/
+/*	width: 50vw;*/
+/*	height: 50vh;*/
+	/*background-image: url(gold.png);*/
+/*	background-repeat: no-repeat;*/
+/*	-webkit-background-size: cover;*/
+/*  	-moz-background-size: cover;*/
+/*  	-o-background-size: cover;*/
+/*  	background-size: 100% 100%;*/
+    
+/*	margin: auto;*/
+/*     top: 0;*/
+/*     right: 0;*/
+/*     bottom: 0;*/
+/*     left: 0;*/
+/*}*/
+
+.console-hands {
+    z-index: 100;
+	position: absolute;
+	 margin: auto;
+     top: 0;
+     right: 0;
+     bottom: 0;
+     left: 0;
+    width: 1200px;
+    height: 150px;
+	/*border: 1px black solid;*/
+
+}
+
+
+.console-row {
+    z-index: 100;
+    position: fixed;
+     margin: auto;
+     top: 0;
+     right: 0;
+     bottom: 0;
+     left: 0;
+	display: flex;
+	justify-content: space-between;
+	/*border: 1px yellow solid;*/
+	/*background-color: pink;*/
+	width: 100%;
+	height: 30%;
+}
+
+.console-back{
+    -moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
+    z-index: 999999999;
+    margin: auto;
+	left: 0;
+	bottom: 0;
+	right:0;
+	top: 0;
+	width: 10%;
+	height: 25%;
+	background-image: url(rainbowforward.gif);
+	/*border: 1px solid black;*/
+	background-size: 70%;
+	background-repeat: no-repeat;
+	background-position: contain;
+	/*background-color: blue;*/
+	-webkit-filter: drop-shadow(0px 0px 8px hotpink);
+	-webkit-transition: background-size 0.2s;
+
+}
+
+.console-back:hover {
+    cursor: pointer;
+    z-index: 999999999;
+    background-size: 65%;
+    background-image: url(rainbowforward.gif);
+    -webkit-filter: drop-shadow(0px 0px 10px #ff00a5);
+   /* -webkit-filter: drop-shadow(6px 6px 6px hotpink);*/
+  	/*filter: drop-shadow(6px 6px 6px hotpink);*/
+}
+
+.console-forward{
+    z-index: 10;
+    margin: auto;
+    left:0;
+	bottom: 0;
+    margin-left: 86%;
+	top: 0;
+	width: 10%;
+	height: 25%;
+	background-image: url(rainbowforward.gif);
+	/*border: 1px solid black;*/
+	background-size: 70%;
+	background-repeat: no-repeat;
+	background-position: contain;
+	/*background-color: grey;*/
+	-webkit-filter: drop-shadow(0px 0px 8px hotpink);
+	-webkit-transition: background-size 0.2s;
+
+}
+
+.console-forward:hover {
+    cursor: pointer ;
+    background-image: url(rainbowforward.gif);
+    background-size: 65%;
+     -webkit-filter: drop-shadow(0px 0px 10px #ff00a5);
+	/*-webkit-filter: drop-shadow(6px 6px 6px hotpink);*/
+ /* 	filter: drop-shadow(6px 6px 6px hotpink);*/
+}
+
+
+/*.backgroundone{*/
+/*    display: none;*/
+/*    z-index: -1;*/
+/*    width: 50vw;*/
+/*    height: 50vh;*/
+/*    position: relative;*/
+/*	background-image: url(waterfall4.gif);*/
+/*	background-repeat: no-repeat;*/
+/*	-webkit-background-size: cover;*/
+/*  	-moz-background-size: cover;*/
+/*  	-o-background-size: cover;*/
+/*  	background-size: 100% 100%;*/
+    
+/*}*/
