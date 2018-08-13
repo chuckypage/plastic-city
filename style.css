@@ -63,55 +63,55 @@ html {
 	height: 80%;
 }
 
-.console-row {
-	display: flex;
-	justify-content: space-around;
+/*.console-row {*/
+/*	display: flex;*/
+/*	justify-content: space-around;*/
 	/*border: 1px yellow solid;*/
 	/*background-color: black;*/
 
-}
+/*}*/
 
-.console-playforward {
-	z-index: 200;
-	cursor: pointer;
-	left: 40%;
-	bottom: 10%;
-	width: 200%;
-	height: 10%;
-	background-image: url(playforwardshadow.png);
+/*.console-playforward {*/
+/*	z-index: 200;*/
+/*	cursor: pointer;*/
+/*	left: 40%;*/
+/*	bottom: 10%;*/
+/*	width: 200%;*/
+/*	height: 10%;*/
+/*	background-image: url(playforwardshadow.png);*/
 	/*border: 1px solid black;*/
-	background-color: pink;
-	background-size: 40% 100%;
-	background-repeat: no-repeat;
-	background-position: center;
-	-webkit-filter: drop-shadow(0px 2px 2px black);
-	-webkit-transition: width 0.3s, height 0.3s, background-size 0.3s;
+/*	background-color: pink;*/
+/*	background-size: 40% 100%;*/
+/*	background-repeat: no-repeat;*/
+/*	background-position: center;*/
+/*	-webkit-filter: drop-shadow(0px 2px 2px black);*/
+/*	-webkit-transition: width 0.3s, height 0.3s, background-size 0.3s;*/
 	
-}
+/*}*/
 
-.console-playforward:hover {
-	background-size: 35% 92%;
+/*.console-playforward:hover {*/
+/*	background-size: 35% 92%;*/
 	/*background-image: url(playforward.png);*/
-}
+/*}*/
 
-.console-playback {
-	cursor: pointer;
-	left: 10%;
-	bottom: 10%;
-	width: 200%;
-	height: 10%;
-	background-image: url(playbackshadow.png);
-	border: 1px solid black;
-	background-size: 40% 100%;
-	background-repeat: no-repeat;
-	background-position: center;
-	-webkit-filter: drop-shadow(0px 2px 2px black);
-	-webkit-transition: width 0.3s, height 0.3s, background-size 0.3s;
-}
-.console-playback:hover {
-	background-size: 35% 92%;
+/*.console-playback {*/
+/*	cursor: pointer;*/
+/*	left: 10%;*/
+/*	bottom: 10%;*/
+/*	width: 200%;*/
+/*	height: 10%;*/
+/*	background-image: url(playbackshadow.png);*/
+/*	border: 1px solid black;*/
+/*	background-size: 40% 100%;*/
+/*	background-repeat: no-repeat;*/
+/*	background-position: center;*/
+/*	-webkit-filter: drop-shadow(0px 2px 2px black);*/
+/*	-webkit-transition: width 0.3s, height 0.3s, background-size 0.3s;*/
+/*}*/
+/*.console-playback:hover {*/
+/*	background-size: 35% 92%;*/
 	/*background-image: url(playback.png);*/
-}
+/*}*/
 
 .slideshow {
     position: fixed;
