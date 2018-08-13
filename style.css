@@ -5,7 +5,16 @@ body {
 
 	/*overflow: visible;*/
 }
+html {
 
+    background-attachment: fixed;
+	background-image: url(sky.gif);
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: 100% 100%;
+}
 /*html {*/
 
 /*    background-attachment: fixed;*/
@@ -32,10 +41,10 @@ body {
 
 .border {
     z-index: 100;
-    position: absolute;
+    position: fixed;
 	/*border: 3px hotpink solid;*/
-	width: 100vw;
-	height: 100vh;
+	width: 100%;
+	height: 100%;
      /*background-attachment: fixed;*/
 	background-image: url(gold4.png);
 	background-repeat: no-repeat;
@@ -44,6 +53,62 @@ body {
   	-o-background-size: cover;
   	background-size: 100% 100%;
     
+}
+.console-controls {
+	position: absolute;
+	/*background-color: pink;*/
+	right: 15%;
+	bottom: 15%;
+	width: 30%;
+	height: 80%;
+}
+
+.console-row {
+	display: flex;
+	justify-content: space-around;
+	/*border: 1px yellow solid;*/
+	/*background-color: black;*/
+
+}
+
+.console-playforward {
+	cursor: pointer;
+	left: 40%;
+	bottom: 10%;
+	width: 200%;
+	height: 10%;
+	background-image: url(playforwardshadow.png);
+	border: 1px solid black;
+	background-size: 40% 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	-webkit-filter: drop-shadow(0px 2px 2px black);
+	-webkit-transition: width 0.3s, height 0.3s, background-size 0.3s;
+	
+}
+
+.console-playforward:hover {
+	background-size: 35% 92%;
+	/*background-image: url(playforward.png);*/
+}
+
+.console-playback {
+	cursor: pointer;
+	left: 10%;
+	bottom: 10%;
+	width: 200%;
+	height: 10%;
+	background-image: url(playbackshadow.png);
+	border: 1px solid black;
+	background-size: 40% 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	-webkit-filter: drop-shadow(0px 2px 2px black);
+	-webkit-transition: width 0.3s, height 0.3s, background-size 0.3s;
+}
+.console-playback:hover {
+	background-size: 35% 92%;
+	/*background-image: url(playback.png);*/
 }
 
 .slideshow {
